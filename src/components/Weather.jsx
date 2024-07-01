@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchWeatherRequest } from "../actions/WeatherActions";
 
+import "../styles/Weather.scss";
+
 export const Weather = () => {
   const dispatch = useDispatch();
   const [city, setCity] = useState("");
