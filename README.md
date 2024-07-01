@@ -1,8 +1,27 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Alt Text](https://i.imgur.com/L6G8BNh.png)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a weather application I built using React and Redux. It shows real-time weather forecasts based on locations you enter. I used SCSS for styling and .env files for secure API key and base management.
+
+## Features
+
+- Shows current weather like temperature, humidity, and wind speed.
+- Lets you search for weather info in any city worldwide.
+- Works well on both phones and computers.
+
+## Technologies Used
+
+- React
+- Redux
+- Open Weather Map API
+- SCSS
+- .env for environment variables
+
+## Getting Started
+
+1. Clone this repository.
+2. Install dependencies with `npm install`.
+3. Set up your API key and base in a `.env` file
